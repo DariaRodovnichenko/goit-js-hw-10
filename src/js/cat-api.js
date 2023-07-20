@@ -6,11 +6,7 @@ axios.defaults.headers.common['x-api-key'] =
 export function fetchBreeds() {
   return axios
     .get('https://api.thecatapi.com/v1/breeds')
-    .then(response => response.data)
-    .catch(error => {
-      console.error(error);
-      throw error;
-    });
+    .then(response => response.data);
 }
 
 export function fetchCatByBreed(breedId) {

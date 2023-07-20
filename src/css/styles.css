@@ -30,7 +30,7 @@ main {
 }
 
 .cat-name {
-  margin: 0;
+  margin-top: 20px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
